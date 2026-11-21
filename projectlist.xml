@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projects>
+    <project>
+        <title>Lea's World Personal Portfolio</title>
+        <description>
+            My personal portfolio website created to introduce
+            myself, share my interests, and showcase my creativity
+            and skills through web design and HTML.
+        </description>
+        <link>https://sites.google.com/view/leas-world/home?authuser=0</link>
+        <date>2026-03-21</date>
+    </project>
+
+    <project>
+        <title>Fantasy Novel Inspired by Chinese Manhua</title>
+        <description>
+            An original fantasy writing project inspired by Chinese
+            manhua. It explores an imaginative world, characters,
+            and a developing storyline.
+        </description>
+        <link>https://docs.google.com/document/d/1_wBJcKn0zBbEn3SS1VWR3ZoQPrS5oQPS/edit?usp=drivesdk&amp;ouid=113086066151239577139&amp;rtpof=true&amp;sd=true</link>
+        <date>2026-04-21</date>
+    </project>
+
+    <project>
+        <title>Who Made Me a Princess Audio Project</title>
+        <description>
+            An audio project inspired by Who Made Me a Princess,
+            combining audio storytelling and creative expression
+            to bring a story to life.
+        </description>
+        <link>https://on.soundcloud.com/8J7zyS34VOeTo752Go</link>
+        <date>2026-09-07</date>
+    </project>
+</projects>

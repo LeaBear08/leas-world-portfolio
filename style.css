@@ -1,0 +1,192 @@
+
+/* Moonlit Purple Portfolio */
+
+/* Universal box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Main page styling */
+body {
+    margin: 0;
+    padding: 1.5rem;
+    background-color: #F4EEFA;
+    color: #30243B;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Header styling */
+header {
+    padding: 2rem 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    background-color: #E5D6F5;
+    border: 1px solid #D2BDE9;
+    border-radius: 1rem;
+}
+
+/* Heading typography */
+h1,
+h2,
+h3 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+h1 {
+    color: #512D73;
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    color: #603A83;
+    font-size: 2rem;
+    border-bottom: 2px solid #D2BDE9;
+    padding-bottom: 0.4rem;
+}
+
+h3 {
+    color: #714B91;
+    font-size: 1.5rem;
+}
+
+/* Main content container */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Section styling */
+section {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #E0D2EC;
+    border-radius: 0.8rem;
+}
+
+/* Image styling */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    border: 3px solid #D2BDE9;
+    border-radius: 0.5rem;
+}
+
+/* Flexbox: photo beside biography */
+#about-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#about-content img {
+    width: 180px;
+    flex-shrink: 0;
+}
+
+#about-content p {
+    flex: 1;
+}
+
+/* Link styling */
+a {
+    color: #603A83;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+}
+
+a:hover {
+    color: #8A52B5;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    color: #51415E;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive mobile layout */
+@media (max-width: 600px) {
+
+    body {
+        padding: 0.75rem;
+    }
+
+    header {
+        padding: 1.5rem 0.75rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.35rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    #about-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #about-content img {
+        width: 160px;
+        max-width: 100%;
+        align-self: center;
+    }
+}
+
+/* XML Project Cards */
+
+.project-card {
+    background-color: #F4EEFA;
+    border: 1px solid #D2BDE9;
+    border-radius: 0.8rem;
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    overflow-wrap: anywhere;
+}
+
+.project-date {
+    color: #714B91;
+    font-size: 0.9rem;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #603A83;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+.project-card a:hover {
+    background-color: #8A52B5;
+    color: #FFFFFF;
+}
